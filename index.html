@@ -21,7 +21,7 @@
 <body>
     <!--PAGE HEADER-->
     <header class="page-header">
-        <div class="container nav-container">
+        <div class="container nav-container-mobile">
             <nav class="page-navigation">
                 <a href="./index.html" class="logo link">Web<span class="span-logo">Studio</span></a>
                 <ul class="menu list ">
@@ -36,6 +36,13 @@
                     </li>
                 </ul>
             </nav>
+
+            <button class="mobile-open-button-menu" type="button">
+                <svg class="mobile-open-btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+
             <address class="contacts-menu">
                 <ul class="list contact-list">
                     <li><a class="menu-contact link email-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -51,14 +58,14 @@
 
         <!--HERO-->
         <section class="hero">
-            <div class="container">
+            <div class="container mobile-container-title">
                 <h1 class="title-hero">Effective Solutions
                     for Your Business</h1>
                 <button class="order-button" type="button">Order Service</button>
             </div>
         </section>
 
-        <!--EFFECTIVE SOLUTIONS-->
+        <!--EFFECTIVE SOLUTIONS 2-->
         <section class="effective-solutions">
             <div class="container">
                 <h2 class="title-solutions visually-hidden">Strategy and technologies</h2>
@@ -69,7 +76,7 @@
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions">Strategy</h3>
+                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Strategy</h3>
                         <p class="text-section test-solutions">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
@@ -79,7 +86,7 @@
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions">Punctuality</h3>
+                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Punctuality</h3>
                         <p class="text-section test-solutions">Bring the key message to the brand's audience for the
                             best price
                             within the shortest possible
@@ -91,7 +98,7 @@
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions">Diligence</h3>
+                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Diligence</h3>
                         <p class="text-section test-solutions">Research and confirm brands that present the strongest
                             digital
                             growth opportunities and minimize
@@ -103,7 +110,7 @@
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions">Technologies</h3>
+                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Technologies</h3>
                         <p class="text-section test-solutions">Design practice focused on digital experiences. We bring
                             forth a
                             deep passion for
@@ -118,8 +125,10 @@
             <div class="container">
                 <h2 class="tittle-team">Our Team</h2>
                 <ul class="our-team-list list">
-                    <li class="team-list">
-                        <img src="./images/foto1.jpg" alt="foto1" width="264" height="260" class="img-team">
+                    <li class="team-list mobile-team-list">
+                        <img srcset="./images/foto1@2x.jpg 2x"
+                            sizes="(min-width: 1158px) 264px, (min-width: 768px) 264px, (max-width: 767px) 264px"
+                            src="./images/foto1.jpg" alt="foto1" width="264" height="260" class="img-team">
                         <div class="team-container">
                             <h3 class="tittle-section name-team">Mark Guerrero</h3>
                             <p class="text-section major-team">Product Designer</p>
@@ -157,8 +166,10 @@
 
 
                     </li>
-                    <li class="team-list">
-                        <img src="./images/foto2.jpg" alt="foto2" width="264" height="260" class="img-team">
+                    <li class="team-list mobile-team-list">
+                        <img srcset="./images/foto2@2x.jpg 2x"
+                            sizes="(min-width: 1158px) 264px, (min-width: 768px) 264px, (max-width: 767px) 264px"
+                            src="./images/foto2.jpg" alt="foto2" width="264" height="260" class="img-team">
                         <div class="team-container">
                             <h3 class="tittle-section name-team">Tom Ford</h3>
                             <p class="text-section major-team">Frontend Developer</p>
@@ -194,8 +205,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-list">
-                        <img src="./images/foto3.jpg" alt="foto3" width="264" height="260" class="img-team">
+
+                    <li class="team-list mobile-team-list">
+                        <img srcset="./images/foto3@2x.jpg 2x"
+                            sizes="(min-width: 1158px) 264px, (min-width: 768px) 264px, (max-width: 767px) 264px"
+                            src="./images/foto3.jpg" alt="foto3" width="264" height="260" class="img-team">
                         <div class="team-container">
                             <h3 class="tittle-section name-team">Camila Garcia</h3>
                             <p class="text-section major-team">Marketing</p>
@@ -231,8 +245,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-list">
-                        <img src="./images/foto4.jpg" alt="foto4" width="264" height="260" class="img-team">
+
+                    <li class="team-list mobile-team-list">
+                        <img srcset="./images/foto4@2x.jpg 2x"
+                            sizes="(min-width: 1158px) 264px, (min-width: 768px) 264px, (max-width: 767px) 264px"
+                            src="./images/foto4.jpg" alt="foto4" width="264" height="260" class="img-team">
                         <div class="team-container">
                             <h3 class="tittle-section name-team">Daniel Wilson</h3>
                             <p class="text-section major-team">UI Designer</p>
@@ -276,10 +293,12 @@
         <section class="page-portfolio">
             <div class="container">
                 <h2 class="tittle-team">Our Portfolio</h2>
-                <ul class="list-portfolio list">
+                <ul class="list-portfolio mobile-list-portfolio list">
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/banking-app.jpg" alt="Banking App" width="360" height="300">
+                            <img class="" srcset="./images/banking-app@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/banking-app.jpg" alt="Banking App" width="360" height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -295,7 +314,9 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                            <img srcset="./images/cashless-payment@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -312,7 +333,9 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                            <img srcset="./images/meditation-app@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -328,7 +351,9 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                            <img srcset="./images/taxi-service@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -344,7 +369,9 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/screen-Illustrations.jpg" alt="Screen Illustrations" width="360"
+                            <img srcset="./images/screen-Illustrations@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/screen-Illustrations.jpg" alt="Screen Illustrations" width="360"
                                 height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
@@ -361,7 +388,9 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
+                            <img srcset="./images/online-courses@2x.jpg 2x"
+                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                                src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -382,7 +411,7 @@
     </main>
 
     <!--PAGE FOOTER-->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
         <div class="container container-footer">
             <div class="description-footer">
                 <a class="logo-footer link" href="./index.html">Web<span class="web-logo">Studio</span></a>
@@ -519,7 +548,32 @@
 
             </form>
         </div>
-    </div>
+    </div> -->
+
+    <!--Mobile menu backdrop-->
+    <!-- <div class="mobile-menu">
+        <div class="container container-mobaile-menu">
+            <button class="mobile-modal-button-close" type="button">
+                <svg class="mobile-modal-button-close-icon" width="8" height="8" aria-label="modal-close-button">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <nav class="nav-mobile-menu">
+                <ul class="mobile-me-enu-list list">
+                    <li class="mobile-menu-item-list">
+                        <a class="mobile-menu-link link" href="">Studio</a>
+                    </li>
+                    <li class="mobile-menu-item-list">
+                        <a class="mobile-menu-link link" href="">Portfolio</a>
+                    </li>
+                    <li class="mobile-menu-item-list">
+                        <a class="mobile-menu-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div> -->
 
 </body>
 
