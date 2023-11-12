@@ -76,8 +76,8 @@
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Strategy</h3>
-                        <p class="text-section test-solutions">Our goal is to identify the business
+                        <h3 class="sub-title-solutions ">Strategy</h3>
+                        <p class="text-section-solutions">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
                     <li class="solutions-list">
@@ -86,8 +86,8 @@
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Punctuality</h3>
-                        <p class="text-section test-solutions">Bring the key message to the brand's audience for the
+                        <h3 class="sub-title-solutions ">Punctuality</h3>
+                        <p class="text-section-solutions">Bring the key message to the brand's audience for the
                             best price
                             within the shortest possible
                             time.</p>
@@ -98,8 +98,8 @@
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Diligence</h3>
-                        <p class="text-section test-solutions">Research and confirm brands that present the strongest
+                        <h3 class="sub-title-solutions ">Diligence</h3>
+                        <p class="text-section-solutions">Research and confirm brands that present the strongest
                             digital
                             growth opportunities and minimize
                             risk.</p>
@@ -110,8 +110,8 @@
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="tittle-section sub-title-solutions tittle-section-mobile">Technologies</h3>
-                        <p class="text-section test-solutions">Design practice focused on digital experiences. We bring
+                        <h3 class="sub-title-solutions ">Technologies</h3>
+                        <p class="text-section-solutions">Design practice focused on digital experiences. We bring
                             forth a
                             deep passion for
                             problem-solving.</p>
@@ -293,12 +293,28 @@
         <section class="page-portfolio">
             <div class="container">
                 <h2 class="tittle-team">Our Portfolio</h2>
-                <ul class="list-portfolio mobile-list-portfolio list">
+                <ul class="list-portfolio list">
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img class="" srcset="./images/banking-app@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/banking-app.jpg" alt="Banking App" width="360" height="300">
+
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/banking-app.jpg 1x, ./images/banking-app@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/banking-app.jpg 1x, ./images/banking-app@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/banking-app-mob.jpg 1x, ./images/banking-app-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/banking-app.jpg" alt="banking-app" width="360"
+                                    height="300" loading="lazy" />
+                            </picture>
+
+
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -314,9 +330,22 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img srcset="./images/cashless-payment@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/cashless-payment-mob.jpg 1x, ./images/cashless-payment-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/cashless-payment.jpg" alt="Cashless Payment"
+                                    width="360" height="300" loading="lazy" />
+                            </picture>
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -333,9 +362,22 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img srcset="./images/meditation-app@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/meditation-app.jpg 1x, ./images/meditation-app@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/meditation-app.jpg 1x, ./images/meditation-app@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/meditation-app-mob.jpg 1x, ./images/meditation-app-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/meditation-app.jpg" alt="Meditation App" width="360"
+                                    height="300" loading="lazy" />
+                            </picture>
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -351,9 +393,22 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img srcset="./images/taxi-service@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/taxi-service.jpg 1x, ./images/taxi-service@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/taxi-service.jpg 1x, ./images/taxi-service@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/taxi-service-mob.jpg 1x, ./images/taxi-service-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/taxi-service.jpg" alt="Taxi Service" width="360"
+                                    height="300" loading="lazy" />
+                            </picture>
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -369,10 +424,22 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img srcset="./images/screen-Illustrations@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/screen-Illustrations.jpg" alt="Screen Illustrations" width="360"
-                                height="300">
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/screen-Illustrations.jpg 1x, ./images/taxi-service@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/screen-Illustrations.jpg 1x, ./images/taxi-service@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/screen-Illustrations-mob.jpg 1x, ./images/screen-Illustrations-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/screen-Illustrations.jpg" alt="Screen Illustrations"
+                                    width="360" height="300" loading="lazy" />
+                            </picture>
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -388,9 +455,22 @@
                     </li>
                     <li class="image-portfolio">
                         <div class="overlay-img">
-                            <img srcset="./images/online-courses@2x.jpg 2x"
-                                sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
-                                src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
+                            <picture>
+                                <!-- Desktop screen -->
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/online-courses.jpg 1x, ./images/online-courses@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Tablet screen -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/online-courses.jpg 1x, ./images/online-courses@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <!-- Mobile screen -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/online-courses-mob.jpg 1x, ./images/online-courses-mob@2x.jpg 2x"
+                                    type="image/jpg" />
+                                <img class="card-img" src="./images/online-courses.jpg" alt="Online Courses" width="360"
+                                    height="300" loading="lazy" />
+                            </picture>
                             <p class="text-section overlay overlay-marketing">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -411,7 +491,7 @@
     </main>
 
     <!--PAGE FOOTER-->
-    <!-- <footer class="page-footer">
+    <footer class="page-footer">
         <div class="container container-footer">
             <div class="description-footer">
                 <a class="logo-footer link" href="./index.html">Web<span class="web-logo">Studio</span></a>
@@ -473,7 +553,7 @@
         </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
         <div class="modal">
 
             <button class="modal-button-close" type="button">
