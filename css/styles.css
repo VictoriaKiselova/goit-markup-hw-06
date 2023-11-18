@@ -71,7 +71,7 @@ img {
   screen and (min-resolution: 2dppx) and (min-width: 1200px),
   screen and (min-device-pixel-ratio: 2) {
   .hero {
-    background-image: url("/images/screen-Illustrations@2x.jpg");
+    background-image: url("../images/people-office@2x.jpg");
   }
 }
 
