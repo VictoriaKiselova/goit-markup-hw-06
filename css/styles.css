@@ -614,9 +614,11 @@ img {
     color: var(--OCEAN, #404bbf);
   }
   .contacts-mobile-menu {
-    width: 193px;
-    height: 72px;
     margin-bottom: 48px;
+    font-style: normal;
+  }
+  .menu-contact {
+    color: var(--SLATE, #434455);
   }
   .email-link-mobile {
     color: var(--IRIS, #4d5ae5);
